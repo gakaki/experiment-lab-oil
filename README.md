@@ -1,23 +1,26 @@
 <p align="center">
 	<img alt="Savlo" width="132" style="max-width:40%;min-width:60px;" src="https://salvo.rs/images/logo-text.svg" />
 </p>
-<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">salvo-admin</h1>
-<h4 align="center">基于salvo和Ruoyi-Vue3的rust快速开发框架</h4>
+<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">实验室用报告记录展示</h1>
 
-## 简介
+## Frontend use Flutter
 
-* [salvo](https://github.com/salvo-rs/salvo) 是一个极其简单且功能强大的 Rust Web 后端框架. 仅仅需要基础 Rust 知识即可开发后端服务。
-* [Ruoyi-vue3](https://github.com/yangzongzhuan/RuoYi-Vue3) Vue3 + Element Plus + Vite 版本
+
+## Backend use Rust
+
+
 
 ## 运行
 
 ```bash
-# 克隆项目
-git clone https://github.com/lyqgit/salvo-admin.git
+# docker 需要2GB内存启动注意
+docker-compose up -d
+
+## 安装Rust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+rustup default stable
 
 # 进入项目目录
-cd salvo-admin
-
 # 启动后端服务
 cargo run
 
